@@ -1,6 +1,15 @@
 /**
  * @author Emm
  */
+
+function addJsonToPage(MyJSON){
+	
+	console.log(MyJSON);
+	
+	var firstDiv = $("<div>");
+	$(firstDiv).html(MyJSON.myGuitarsList[0].type);
+	$("jamming").append(firstDiv);
+	
 			var myGuitar;
 			//.this is my string
 			//A friend recently gave me a guitar to practice.
@@ -15,17 +24,19 @@
 			*/
 			//These below are my objects
 
-			var selectedGuitars = [{
-				"type" : "acousticGuitar"
-			}, {
-				"type" : "electricGuitar"
-			}, {
-				"type" : "semiacousticGuitar"
-			}, {
-				"type" : "bassGuitar"
-			}, {
-				"type" : "ukelele"
-			}];
+			
+var selectedGuitars = [{
+	"type" : "acousticGuitar"
+}, {
+	"type" : "electricGuitar"
+}, {
+	"type" : "semiacousticGuitar"
+}, {
+	"type" : "bassGuitar"
+}, {
+	"type" : "ukelele"
+}]; 
+
 			var otherGuitars = [{
 				"type" : "acousticGuitar"
 			}, {
@@ -112,4 +123,3 @@
 			}//this is enad of  function
 
 			listGuitars();
-
