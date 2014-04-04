@@ -1,0 +1,21 @@
+{
+    "myguitarsList": [
+        {
+            "type": "acousticGuitar"
+        },
+        {
+            "type": "electricGuitar"
+        },
+        {
+            "type": "semiacousticGuitar"
+        },
+        {
+            "type": "bassGuitar"
+        },
+        {
+            "type": "ukelele"
+        }
+    ]
+}
+
+
