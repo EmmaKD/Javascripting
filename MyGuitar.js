@@ -24,7 +24,7 @@ function addJsonToPage(MyJSON){
 			*/
 			//These below are my objects
 
-			
+		
 var selectedGuitars = [{
 	"type" : "acousticGuitar"
 }, {
