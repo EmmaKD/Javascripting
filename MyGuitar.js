@@ -2,12 +2,12 @@
  * @author Emm
  */
 
-function addJsonToPage(MyJSON){
+function addJsonToPage(MyGuitar){
 	
-	console.log(MyJSON);
+	console.log(MyGuitar);
 	
 	var firstDiv = $("<div>");
-	$(firstDiv).html(MyJSON.myGuitarsList[0].type);
+	$(firstDiv).html(MyGuitar.myGuitarsList[0].type);
 	$("jamming").append(firstDiv);
 	
 			var myGuitar;
